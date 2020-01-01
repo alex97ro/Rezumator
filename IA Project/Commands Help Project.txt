@@ -1,0 +1,2 @@
+python manage.py runserver (start a web server)
+python manage.py startapp (start a new application)
