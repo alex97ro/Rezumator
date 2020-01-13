@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff497e63-6132-498c-bcf7-a207177ddc07" name="Default Changelist" comment="" />
+    <list default="true" id="ff857a2c-75c4-4d28-ab91-9f8254ccbc4f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1Vn4HmXtZNCjzFWhpsrxJCAubuC" />
+  <component name="ProjectId" id="1WLHXnAxCNUPYOcJz02a0iKKYzY" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -32,19 +32,19 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="IA Project" />
+    <configuration name="modul1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IAProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IAProject/rezumator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rezumator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IAProject/rezumator/views.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Robert\Desktop\IA Project\IAProject\rezumator\modul_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -55,7 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.views" />
+        <item itemvalue="Python.modul1" />
       </list>
     </recent_temporary>
   </component>
@@ -64,15 +64,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff497e63-6132-498c-bcf7-a207177ddc07" name="Default Changelist" comment="" />
-      <created>1577875439849</created>
+      <changelist id="ff857a2c-75c4-4d28-ab91-9f8254ccbc4f" name="Default Changelist" comment="" />
+      <created>1578921996177</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577875439849</updated>
+      <updated>1578921996177</updated>
     </task>
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
 </project>

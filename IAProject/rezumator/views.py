@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from . import modul_1 # Modulul (Robert Darabana - Grigorovschi Teodor)
 
 
 # Create your views here.
