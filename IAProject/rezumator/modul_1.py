@@ -4,6 +4,11 @@ import os
 
 
 #Functie care deschide fisierul si adauga toate prepozitiile / conjuctiile intr-o lista
+import nltk
+from nltk import sent_tokenize
+
+
+nltk.download('punkt')
 def adauga_cuvinte(path):
     with open(path, "r" , encoding='utf8') as f:
         cuvinte = f.read()
@@ -29,8 +34,8 @@ def word_counter(text):
 
 #Functie care imparte in propozitii un text.
 def text_sentences(text):
-    sentences = re.split(r' *[\.\?!][\'"\)\]]* *', text)
-    return sentences[:-1]
+    sentences = sent_tokenize(text)
+    return sentences
 
 #Functie eliminare dialog
 def process_text(text):

@@ -49,14 +49,18 @@ def reconstruire_text(text,procent):
     prop_alese = afisare_text_procent(lista_scor_prop, int(procent)) # Prop-alese = lista de tuple de forma ( propozitie , procent)
     lista_prop_alese =[] #Doar propozitiile din tupla de forma (propozitie, procent)
     for prop in prop_alese:
-        lista_prop_alese.append(prop[0])
+        s = prop[0].replace('\r',"").replace('\n',"")
+        lista_prop_alese.append(s)
     text = modul_1.process_text(text)
     paragrafe_text = modul_1.paragraphs_text(text)
     for paragraf in paragrafe_text:
+        ok = 0
         prop_paragraf = modul_1.text_sentences(paragraf)
         for prop in prop_paragraf:
             if prop in lista_prop_alese:
-                text_reconstruit = text_reconstruit + prop + ". "
-        text_reconstruit = text_reconstruit + "\n"
+                text_reconstruit = text_reconstruit + prop + " "
+                ok = 1
+        if ok == 1:
+            text_reconstruit = text_reconstruit + "\n"
 
     return text_reconstruit
