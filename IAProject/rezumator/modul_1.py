@@ -68,13 +68,13 @@ def word_freq_distribution(dictionar_counter):
     list_freq = sorted(freq_dictionar.items(), key=lambda x:x[1] ,reverse=True)
     return list_freq
 
-#Functie prin care ne dam seama care ar fi personajele principale
-def personaje_principale(list_freq):
-    posibile_personaje = []
+#Functie prin care determina cele mai importante cuvinte din text
+def extrage_cuvinte_imp(list_freq):
+    cuvinte_importante = []
     for counter in range(0,len(list_freq)):
-        if counter <=10:
-            posibile_personaje.append(list_freq[counter][0])
-    return posibile_personaje
+        if counter <= len(list_freq)/10: #Luam primele 10% cuvintele aparute cel mai frecvent in list_freq
+            cuvinte_importante.append(list_freq[counter][0])
+    return cuvinte_importante
 
 
 
