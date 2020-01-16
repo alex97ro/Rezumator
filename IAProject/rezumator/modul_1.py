@@ -6,6 +6,7 @@ nltk.download('punkt')
 
 
 # Functie care deschide fisierul si adauga toate prepozitiile / conjuctiile intr-o lista
+
 def adauga_cuvinte(path):
     with open(path, "r", encoding='utf8') as f:
         cuvinte = f.read()
